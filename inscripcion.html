@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1 text-align="center">FORMULARIO DE REGISTRO</h1>
+    <h3>INSCRIBA SUS FAMILIARES</h3>
+    </header>
+   <main>
+    <nav class="main-nav">
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="inscripcion.html">Inscripción</a></li>
+          <li><a href="mama.html">Mamá</a></li>
+          <li><a href="papa.html">Papá</a></li>
+      </ul>
+      <img src="Facebook_f_logo_(2019).svg" alt="Logo de Facebook" class="top-right-img">
+
+  </nav> 
+      <section>
+    <form method="post">
+            <ul>
+              <li>
+                <label for="name">Primer Nombre :</label>
+                <input type="text" id="name" name="nombre" />
+              </li><br>
+              <li>
+                <label for="segundo">Segundo Nombre :</label>
+                <input type="text" id="segundo" name="nombre" />
+              </li><br>
+              <li>
+                <label for="tercer">Primer Apellido :</label>
+                <input type="text" id="tercer" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Segundo Apellido :</label>
+                <input type="text" id="cuar" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Edad :</label>
+                <input  type="number" id="cuar" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Fecha de Nacimiento :</label>
+                <input  type="date" id="cuar" name="nombre" />
+              </li><br>
+                  <li>
+                <label for="tel">Celular :</label>
+                <input pattern="[0-9]{10}" type="TEL" id="tel" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Foto :</label>
+                <input type="file">
+              </li><br>
+              <li>
+                <label for="cuar">Sexo :</label><br>
+                <label for="mas">Masculino</label>
+                <input type="radio"><br>
+                <label for="fem">Femenino  </label>
+                <input type="radio"><br>
+                <label for="otro">Otro</label>
+                <input type="radio"><br>
+                <label for="nodecir">Prefiero no decirlo</label>
+                <input type="radio">
+            </li><br>
+             <li>
+                <label for="emailñ">Correo Electronico</label>
+                <input type="email" id="emailñ" name="correo">
+             </li><br>
+             <li>
+                <label for="relacio">Relación con usted :</label>
+                <select name="relacion" id="relacion">
+                <option value="padre">Padre</option>
+                <option value="padre">Madre</option>
+                <option value="padre">Abuela</option>
+                <option value="padre">Tia</option>
+                <option value="padre">Abuelo</option>
+                <option value="padre">Tío</option>
+                <option value="padre">Primo</option>
+                <option value="padre">Prima</option>
+                <option value="padre">Novia</option>
+                <option value="padre">Esposa</option>
+                <option value="padre">Profesor</option>
+                <option value="padre">Amigo</option>
+                </select>
+            </li><br>
+            <li>
+                <label for="intereses">Intereses :</label>
+                <select name="relacion" id="relacion" multiple>
+                    <option value="padre">Deportes</option>
+                    <option value="padre">Escritura</option>
+                    <option value="padre">Banana</option>
+                    <option value="padre">Matematicas</option>
+                    <option value="padre">Ingenieria</option>
+                    </select>
+            </li>
+             <br><br><br><br>
+              <input type="submit">
+     </form>
+    </section>
+  </main>
+  <footer>
+   <h1>MINI HOJA DE VIDA </h1>
+  </footer>
+</body>
+</html>
